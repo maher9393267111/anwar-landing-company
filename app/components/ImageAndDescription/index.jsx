@@ -16,6 +16,10 @@ export default function ImageAndDescription() {
   const slideFromLeft = createSlideVariant({ from: "left", whileInView: true })
 
 
+
+
+  
+
   return (
     <StaggerChildren
     whileInView
