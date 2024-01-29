@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* Almarai google font */
+@import url("https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&family=Readex+Pro:wght@200;300;400;500;600;700&display=swap");
+/* SF Pro Display font link  */
+@import url("https://fonts.cdnfonts.com/css/sf-pro-display");
+/* ReadexPro font link */
+@import url("https://fonts.googleapis.com/css2?family=Readex+Pro:wght@200;300;400;500;600;700&display=swap");
+
+body {
+  direction: rtl;
+  /* font-family: "SF Pro Display", sans-serif; */
+  @apply font-MyFont !important;
+  /* background-color: black; */
+  background-color: #fdfbf7;
+  overflow-x: hidden
+}
+.active-link {
+  @apply text-primaryColor-900 font-bold;
+}
+.items-container {
+  background-color: transparent;
+  background-image: linear-gradient(180deg, #f4f4e6 67%, #ffffff00 63%);
+  /* margin-top: -90px; */
+  margin-bottom: 0px;
+  padding: 150px 0px 32px 0px !important;
+}
+.circle-icon-container {
+  border-radius: 50%;
+  box-shadow: 0px 0px 2px 0px #6b7e5c;
+}
+
+@media only screen and (max-width: 1250px) {
+  html {
+    font-size: 14px !important;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  html {
+    font-size: 12px !important;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  html {
+    font-size: 10px !important;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  html {
+    font-size: 8px !important;
+  }
+}
+
+@media only screen and (max-width: 280px) {
+  html {
+    font-size: 6px !important;
+  }
+}
