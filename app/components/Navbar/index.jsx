@@ -8,7 +8,7 @@ export default function Navbar() {
   const [isScreenScrolled, setisScreenScrolled] = useState(false);
   const [ishide, setHide] = useState(false);
   const addShadowtoNav = () => {
-    // eslint-disable-next-line @typescript-eslint/no-unused-expressions
+    
     window.scrollY >= 50 ? setisScreenScrolled(true) : window.screenY <=200 && setisScreenScrolled(false)
     window.scrollY >= 200 ? setHide(true) : setHide(false);
   };
